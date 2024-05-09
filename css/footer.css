@@ -1,0 +1,40 @@
+footer {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+.links i {
+    transform: scale(1.5);
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+.links a i:hover {
+    transform: scale(1.7);
+}
+
+.links a i:active {
+    transform: scale(1);
+}
+
+.copyright {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    color: var(--white-2);
+}
+
+.copyright a {
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+}
+
+.copyright a:hover{
+    color: var(--white-1);
+}

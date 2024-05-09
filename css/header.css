@@ -1,0 +1,38 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav {
+    justify-self: end;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    font-family: "Montserrat", sans-serif;
+    padding: 1rem 1.5rem;
+    border-radius: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--white-1);
+    transition: 0.05s;
+}
+
+.menu li a:hover {
+    color: var(--black-2);
+    background-color: var(--white-1);
+}
+.menu li a:active {
+    color: var(--white-1);
+    background-color: transparent;
+}
