@@ -6,79 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LE SSERAFIM</title>
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-
-    <div class="banner container">
+    <div id="bg-video">
 
         <video autoplay loop muted plays-inline>
             <source src="assets/videos/easy_bg-video.mp4" type="video/mp4">
         </video>
+        <div class="content">
+            <header class="header container" id="header-index">
+                <div>
+                    <a href="\">
+                        <svg class="logo logo-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 140.92">
+                            <rect x="216.98" y="26.14" width="69.56" height="19.88"
+                                transform="translate(371.77 -188.15) rotate(110)" />
+                            <rect x="153.14" y="29.46" width="86.02" height="19.88"
+                                transform="translate(94.19 -132.73) rotate(48)" />
+                            <rect x="157.36" y="28.9" width="293.53" height="19.88"
+                                transform="translate(-1.72 60.35) rotate(-11.3)" />
+                            <rect x="106.56" y="29.23" width="284.68" height="19.88"
+                                transform="translate(-2.75 51.73) rotate(-11.8)" />
+                            <rect x="-0.92" y="30.42" width="306.66" height="19.88"
+                                transform="translate(-4.9 29.82) rotate(-11)" />
+                            <rect x="57.07" y="29.92" width="293.73" height="19.88"
+                                transform="translate(-3.85 42.18) rotate(-11.7)" />
+                            <rect x="117.99" y="29.93" width="221.25" height="19.88"
+                                transform="translate(19.32 -60.38) rotate(15.7)" />
+                            <rect x="182.41" y="30.25" width="116.08" height="19.88"
+                                transform="translate(57.84 -121.31) rotate(32)" />
+                            <rect x="66.02" y="29.92" width="383.93" height="19.88"
+                                transform="translate(9.27 -39.43) rotate(8.9)" />
+                            <rect x="-0.06" y="29.92" width="383.93" height="19.88"
+                                transform="translate(8.48 -29.21) rotate(8.9)" />
+                            <polygon
+                                points="13.98 94.45 3.79 94.45 3.79 140.14 37.49 140.14 37.49 130.32 13.98 130.32 13.98 94.45" />
+                            <polygon
+                                points="54.62 121.58 70.16 121.58 70.16 111.75 54.62 111.75 54.62 104.27 79.84 104.27 79.84 94.45 44.43 94.45 44.43 140.14 80.51 140.14 80.51 130.32 54.62 130.32 54.62 121.58" />
+                            <polygon
+                                points="201.02 121.58 216.56 121.58 216.56 111.75 201.02 111.75 201.02 104.27 226.24 104.27 226.24 94.45 190.83 94.45 190.83 140.14 226.9 140.14 226.9 130.32 201.02 130.32 201.02 121.58" />
+                            <polygon
+                                points="332.45 94.45 332.45 140.14 342.64 140.14 342.64 121.58 358.84 121.58 358.84 111.75 342.64 111.75 342.64 104.27 367.86 104.27 367.86 94.45 332.45 94.45" />
+                            <rect x="374.33" y="94.45" width="10.19" height="45.69" />
+                            <path
+                                d="M297.86,94.45l-18.8,45.69H289.7l4.35-10.82h19.06l4.35,10.82H328.1L309.3,94.45Zm-.05,25.5,5.77-14.37L309.35,120Z" />
+                            <polygon
+                                points="430.96 94.45 420.17 126.34 409.38 94.45 394.24 94.45 394.24 140.14 403.7 140.14 403.7 105.47 415.43 140.14 424.92 140.14 436.64 105.47 436.64 140.14 446.1 140.14 446.1 94.45 430.96 94.45" />
+                            <path
+                                d="M131,116.44c-2.6-1.38-7.67-2.77-10.94-3.73a46,46,0,0,1-7.35-2.53c-1.35-.78-2.19-1.58-2.19-3.17,0-2.4,3.14-4.35,7.17-4.35s8.88,1.57,8.88,6.55h10.18a14.41,14.41,0,0,0-2.59-8.73c-2.4-3.11-7.14-6.81-16.08-6.81-17.42,0-18.3,11.5-18.3,13.81,0,7.33,5.31,9.89,7.36,10.87a62.1,62.1,0,0,0,8.7,3c2.44.71,6.23,1.7,7.6,2.25,2.3.93,3.4,2.07,3.4,3.86,0,3.76-5.38,4.49-8.05,4.49-8.27,0-9.44-5.2-9.64-6.78H99a14.13,14.13,0,0,0,3.29,9.26c3.45,4.19,9.41,6.51,16.15,6.51,11.63,0,19.14-5.55,19.14-14.14C137.57,122.16,135.55,118.82,131,116.44Z" />
+                            <path
+                                d="M175.87,116.44c-2.61-1.38-7.68-2.77-10.94-3.73a45.66,45.66,0,0,1-7.35-2.53c-1.35-.78-2.19-1.58-2.19-3.17,0-2.4,3.13-4.35,7.16-4.35s8.88,1.57,8.88,6.55h10.19a14.43,14.43,0,0,0-2.6-8.73c-2.4-3.11-7.13-6.81-16.08-6.81-17.42,0-18.3,11.5-18.3,13.81,0,7.33,5.32,9.89,7.36,10.87a62.64,62.64,0,0,0,8.71,3c2.43.71,6.23,1.7,7.59,2.25,2.31.93,3.41,2.07,3.41,3.86,0,3.76-5.39,4.49-8.06,4.49-8.27,0-9.44-5.2-9.63-6.78H143.83a14.16,14.16,0,0,0,3.28,9.26c3.46,4.19,9.41,6.51,16.16,6.51,11.62,0,19.13-5.55,19.13-14.14C182.4,122.16,180.39,118.82,175.87,116.44Z" />
+                            <path
+                                d="M265.05,121.37a14.06,14.06,0,0,0-5.68-26.92H235.18v45.69h9.6V122.56H255l9.94,17.58h10.74ZM259,112.74H244.78v-8.47H259a4.24,4.24,0,0,1,0,8.47Z" />
+                        </svg>
+                    </a>
+                </div>
+                <nav>
+                    <ul id="menu-index" class="menu">
+                        <li><a href="#">PROFILE</a></li>
+                        <li><a href="#">DISCOGRAPHY</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">VIDEO</a></li>
+                        <li><a href="fearnot.html">FEARNOT</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-        <header>
-            <div>
-                <a href="\">
-                    <img src="assets/images/logo.svg" alt="Logo" class="logo">
-                </a>
-            </div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#">PROFILE</a></li>
-                    <li><a href="#">DISCOGRAPHY</a></li>
-                    <li><a href="#">GALLERY</a></li>
-                    <li><a href="#">VIDEO</a></li>
+            <main>
+                <div class="container" id="main-index">
+                    <h1 id="title-track">EASY</h1>
+                    <h2 id="title-album">
+                        The 3rd Mini Album
+                    </h2>
+                    <div>
+                        <a class="btn" href="https://youtu.be/bNKXxwOQYB8?si=cgE1sxA3ouJHsFYX" target="_blank"
+                            rel="noopener noreferrer">Assista agora</a>
+                        <a class="btn"
+                            href="https://open.spotify.com/album/1YCj4PZi08G20y2ekGKY0C?si=8tjOILwmQ9ajbOpWZGwndg"
+                            target="_blank" rel="noopener noreferrer">Ouça agora</a>
+                    </div> 
+                </div>
+            </main>
+
+            <footer class="container" id="footer-index">
+                <ul class="social-media">
+                    <li>
+                        <a href="https://www.instagram.com/le_sserafim/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/le_sserafim" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/official.lesserafim/" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCs-QBT4qkj_YiQw1ZntDO3g" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://shop.le-sserafim.us/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </a>
+                    </li>
                 </ul>
-            </nav>
-        </header>
 
-        <main>
-            <h1 class="title">EASY</h1>
-            <p class="subtitle">
-                The 3rd Mini Album
-            </p>
-            <div>
-                <a class="button" href="https://youtu.be/bNKXxwOQYB8?si=cgE1sxA3ouJHsFYX" target="_blank" rel="noopener noreferrer">Assista agora</a>
-                <a class="button" href="https://open.spotify.com/album/1YCj4PZi08G20y2ekGKY0C?si=8tjOILwmQ9ajbOpWZGwndg" target="_blank" rel="noopener noreferrer">Ouça agora</a>
-            </div>
-        </main>
-
-        <footer>
-            <ul class="links">
-                <li>
-                    <a href="https://www.instagram.com/le_sserafim/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/le_sserafim" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/official.lesserafim/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/channel/UCs-QBT4qkj_YiQw1ZntDO3g" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://shop.le-sserafim.us/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </a>
-                </li>
-            </ul>
-
-            <p class="copyright">
-                Criado por <a href="https://github.com/joaovictorcmd" target="_blank" rel="noopener noreferrer">João Victor Carvalho Machado</a>
-                para <a href="https://ebaconline.com.br/" target="_blank" rel="noopener noreferrer">EBAC</a>
-            </p>
-        </footer>
-
+                <p class="copyright">
+                    Criado por <a href="https://github.com/joaovictorcmd" target="_blank" rel="noopener noreferrer">João
+                        Victor Carvalho Machado</a>
+                    para <a href="https://ebaconline.com.br/" target="_blank" rel="noopener noreferrer">EBAC</a>
+                </p>
+            </footer>
+        </div>
     </div>
 
     <script src="https://kit.fontawesome.com/7a044dc0c5.js" crossorigin="anonymous"></script>

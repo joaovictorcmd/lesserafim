@@ -1,0 +1,40 @@
+/* Background video */
+#bg-video {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-position: center;
+    background-size: center;
+}
+
+#bg-video video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -3;
+}
+
+#main-index {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+#title-track {
+    font-size: 4rem;
+    color: var(--white);
+}
+
+#title-album {
+    font-size: 3rem;
+    color: var(--white);
+    font-weight: 700;
+}
+
+
+@media(min-aspect-ratio:16/9) {
+    #bg-video video {
+        width: 100%;
+        height: auto;
+    }
+}

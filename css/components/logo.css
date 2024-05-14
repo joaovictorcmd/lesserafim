@@ -1,0 +1,28 @@
+/* Logo */
+.logo {
+    height: 3rem;
+}
+
+.logo-dark {
+    fill: var(--black);
+}
+
+.logo-dark:hover {
+    fill: var(--dark-gray);
+}
+
+.logo-dark:active {
+    fill: var(--medium-gray-black);
+}
+
+.logo-light {
+    fill: var(--light-gray);
+}
+
+.logo-light:hover {
+    fill: var(--white);
+}
+
+.logo-light:active {
+    fill: var(--medium-gray-white);
+}

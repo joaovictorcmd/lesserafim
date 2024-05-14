@@ -1,0 +1,56 @@
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    background-color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+}
+
+.header nav {
+    justify-self: end;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.menu a {
+    font-family: var(--primary-font);
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.05s;
+    color: var(--black);
+}
+
+.menu a:hover {
+    color: var(--medium-gray-white);
+}
+
+.menu a:active {
+    color: var(--medium-gray-black);
+}
+
+/* Index Page */
+
+#header-index {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#menu-index a {
+    color: var(--white);
+}
+
+#menu-index a:hover {
+    color: var(--light-gray);
+}
+
+#menu-index a:active {
+    color: var(--medium-gray-white);
+}

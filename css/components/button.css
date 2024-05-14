@@ -1,0 +1,27 @@
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid var(--black);
+    background-color: var(--white);
+    color: var(--black);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.btn:active {
+    border-color: var(--dark-gray);
+    background-color: var(--dark-gray);
+    color: var(--light-gray);
+}
+
+#btns-index .btn {
+    border: 1px solid var(--dark-gray);
+}
