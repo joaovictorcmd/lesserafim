@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.form-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: 700;
+}
+
+.form-inputs {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-self: center;
+}
+
+.form-inputs input,
+.form-inputs select {
+    padding: .5rem 10rem;
+    padding-left: .5rem;
+}
+
+.form-inputs option {
+    font-size: 1rem;
+}
+
+.form p {
+    font-size: 0.6rem;
+    text-align: center;
+}
